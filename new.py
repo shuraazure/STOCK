@@ -71,11 +71,11 @@ if st.button('Predict'):
     df = yf.download(use_input, start ,end )
 
     
-    #describing data 
+
     st.subheader('Data From 2010-2024')
     st.write(df.describe())
 
-    #maps 
+    
    
 
   
@@ -151,11 +151,11 @@ if st.button('Predict'):
     def main():
         st.title('Stock Price Predicted Analysis')
         
-        # Call the function to plot the transparent graph
+        
         plot_transparent_graph()
 
-        # Other interactive elements and text can be added here as needed
-        # ...
+       
+
 
     if __name__ == "__main__":
         main()
